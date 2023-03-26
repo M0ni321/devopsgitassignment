@@ -7,17 +7,17 @@ public class App {
 
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Simple Calculator app:");
+        System.out.println("Simple Calculator app: ");
         System.out.println("Enter your choice:\n 1 for 'Addition' \n 2 for 'Subtraction' \n 3 for 'Division' \n 4 for 'Multiplication'");
         int n = sc.nextInt();
-        System.out.println("Enter two numbers:");
+        System.out.println("Enter two numbers: ");
         double a = sc.nextDouble();
         double b = sc.nextDouble();
         switch(n){
             case 1:
             System.out.println(addition(a,b));
             break;
-            case 2:
+            case 2: 
             System.out.println(subtraction(a,b));
             break;
             case 3:

@@ -4,6 +4,7 @@
 	<comment></comment>
 	<projects>
 	</projects>
+
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
@@ -16,10 +17,12 @@
 			</arguments>
 		</buildCommand>
 	</buildSpec>
+
 	<natures>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	
 	<filteredResources>
 		<filter>
 			<id>1679657686701</id>

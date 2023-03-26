@@ -4,7 +4,6 @@ import main.java.com.mycompany.app.App;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 public class AppTest
 {
 
